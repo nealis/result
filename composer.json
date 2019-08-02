@@ -1,0 +1,17 @@
+{
+  "name": "nealis/result",
+  "description": "A Simple Result interface which can be used to standardize communications between different parts of an ecosystem"
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guido Sangiovanni",
+      "email": "sangiovanni.guido@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nealis\\Result\\": "src/"
+    }
+  }
+}
