@@ -104,7 +104,6 @@ class Result implements \JsonSerializable
     public function updateSuccess()
     {
         $this->setSuccess(empty($this->errors) && empty($this->warnings));
-
         return $this;
     }
 
